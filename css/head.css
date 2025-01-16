@@ -1,0 +1,77 @@
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+.header-container{
+    display: flex;
+    box-sizing: content-box;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    justify-self: center;
+}
+
+header
+.name{
+    display: flex;
+    align-items: center;
+}
+header
+.logotype{
+    margin-bottom: 25px;
+    display: inline;
+    width: 65px;
+    height: 65px;
+    box-sizing: border-box;
+}
+
+header
+.name
+.title{
+    /* PumpkinPie */
+    display: inline;
+    font-family: "Montserrat Alternates";
+    font-size: 40px;
+    font-weight: 800;
+    transition: all 0.5s;
+}
+
+header
+.title-pie{
+    color: rgb(255, 167, 63);
+    transition: all 0.5s;
+    box-sizing: border-box;
+}
+
+
+header
+.name
+.slogan{
+    font-size: 10pt;
+    margin: 0;
+}
+
+
+header
+nav
+img{
+    display: inline;
+    margin-left: 30px;
+    width: 35px;
+    height: 35px;
+}
+
+header
+a{
+    text-decoration: none;
+}
+
+nav{
+    margin-left: auto;
+}
+

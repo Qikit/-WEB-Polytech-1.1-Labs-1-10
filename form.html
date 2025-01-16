@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>PumpkinPie - регистрация</title>
+    <link rel="icon" href="images/logo.png">
+</head>
+<body>
+    
+    <header>
+        <a href="file:///C:/Users/%D0%94%D0%B8%D0%BC%D0%B0/Desktop/Qikit/MosPolytech/%D0%92%D0%B5%D0%B1-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8/site/index.html">
+            <img src="images/back.png" alt="Вернуться назад" class="back">
+        </a>
+        <h1>Регистрация</h1>
+        <a href="file:///C:/Users/%D0%94%D0%B8%D0%BC%D0%B0/Desktop/Qikit/MosPolytech/%D0%92%D0%B5%D0%B1-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8/site/index.html">
+            <img src="images/back.png" alt="Вернуться назад" class="back2" style="display: none;">
+        </a>
+    </header>
+
+    <main>
+        <section class="sections register">
+            <form action="get">
+
+                <fieldset class="personal-info">
+                    <legend>Заходим в Pumpkin<span class="pie">Pie</span></legend>
+                    <div class="register-container">
+                        <div class="input-container">
+                            <label for="name">Имя</label>
+                            <input type="text" name="name" id="name" placeholder="Как звать" required>
+                        </div>
+                        <div class="input-container">
+                            <label for="dateOfBirth">Дата рождения</label>
+                            <input type="date" name="dateOfBirth" id="dateOfBirth">
+                        </div>
+                        <div class="input-container">
+                            <label for="gender">Пол</label>
+                            <div class="input-container gender">
+                                <label for="gender-female">Ж<input type="radio" name="gender" id="gender-female" value="female"></label>
+                                <label for="gender-male">М<input type="radio" name="gender" id="gender-male" value="male"></label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <label for="password">Пароль</label>
+                            <input type="password" name="password" id="password" placeholder="@#&*#@%^!" required>
+                        </div>
+                        <div class="input-container">
+                            <label for="password">Повторите пароль</label>
+                            <input type="password" name="password" id="password" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="contact">
+                    <legend>Контактная информация</legend>
+                    <div class="register-container">
+                        <div class="input-container">
+                            <label for="telephone">Номер телефона</label>
+                            <input type="tel" name="telephone" id="telephone" required>
+                        </div>
+                        <div class="input-container">
+                            <label for="email">Почта</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="input-container">
+                            <label for="time">Удобное время для связи</label>
+                            <input type="time" name="time" id="time">
+                        </div>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Зарегистрироваться</button>
+                
+            </form>
+
+        </section>
+
+        <div class="contacts-container">
+            <a href="tel:+79186579733">Позвонить</a>
+            <a href="mailto:boogarok@inbox.ru">Написать</a>
+        </div>
+
+    </main>
+
+    <section style="height: 50vh;">
+
+    </section>
+
+</body>
+</html>
